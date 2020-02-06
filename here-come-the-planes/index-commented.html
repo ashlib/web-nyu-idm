@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<!-- the html tag tells the browser that this file is an html document. It is also a container for all other HTML elements.-->
+  <head>
+    <!-- the head tag stores what is called metadata, specific information about a web page like the title of a page and CSS files.-->
+    <title>Ashli's Karaoke Webring</title>
+    <!-- the title tag is an html element that sets the title of the web page.-->
+    <style>
+    /* the style element contains CSS information that indicate how the web page will be designed. */
+    body:before, body:after
+    /* :before is a CSS pseudo element that inserts something before an element. A pseudo-element is a keyword that allows you to style a specific part of an element.*/
+    /* :after is a CSS pseudo element that inserts something after an element. */
+    content: "";
+    /* content is a CSS property that can only be used with :before and :after. Rather than selecting something from the existing page, the content property adds to the page. */
+    position: fixed;
+    /* position property tells an element what type of positioning method should be used (static,fixed,absolute,etc.) */
+    /* position:fixed keeps an element in the same place, even when you scroll*/
+    background: gold;
+    left: 0;
+    /* the left property sets the left edge of a positioned element. */
+    right: 0;
+    /* the right property sets the right edge of a positioned element. */
+    height: 7px;
+    /* this is a CSS property thats set the height of an element. */
+    /* px is a suffix that represents a CSS pixel. It is a unit of length equal to the width/height of a dot seen by the human eye. */
+  }
+
+  body:before {
+    top: 0;
+    /* top is a CSS property that sets the top edge of a positioned element. */
+  }
+
+  body:after {
+    bottom: 0
+    /* bottom is a CSS property that sets the bottom edge of a positioned element. */
+  }
+
+    body {
+      background-color: black;
+      /* this CSS property sets the background color of the an element. */
+      color: white;
+      /* this property sets the color of the text within an element. */
+      text-align: center;
+      /* tect-align is a CSS property that sets the text alignment for an element.*/
+      /* center aligns the text in the center of the webpage. */
+      font-size: 45px;
+      /* this is a CSS property that sets the size of a font within an element. */
+    }
+
+    h1:hover {
+      /* :hover is a selector that adds a special effect to an element when the mouse or cursor is placed over it.  */
+      text-shadow:4px 0px midnightblue;
+      /* this property adds a shadow to the text indicated. the two value represent offset-x and offset-y, while the last feature dictates the color of the text shadow.*/
+      background: -webkit-linear-gradient(blue, black);
+      /* background is a shorthand CSS property that gives you control over an element's background */
+      -webkit-background-clip: text;
+      /* background-clip is a CSS property that sets whether or not an element's background extends underneath its border, padding, or content boxes.*/
+      /* text, when applied to background-clip, makes the background painted within the foreground text */
+      -webkit-text-fill-color: transparent;
+      /* webkit-text-fill-color is a CSS property that specifies the color of a text.  */
+      background-image: url(https://media0.giphy.com/media/AjvL450TpM6ly/giphy.gif);
+      /* the background-image sets an image as the background for an element. */
+      /* the url function accepts a url value as it parameter which specifies the location of the file.  */
+      background-position: 50px;
+      /* background-position sets the starting position of a background image. */
+    }
+
+    h2:hover {
+      text-shadow:4px 0px red;
+      background: -webkit-linear-gradient(red,black);
+      /* The linear-gradient is a standard syntax that fill's the element's box. The direction can be specified as to which way gradient should go.*/
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: url(https://media.giphy.com/media/3o7aCY1vdPKjHi7Wo0/giphy.gif);
+      background-position: 50px;
+    }
+
+    h3:hover {
+      text-shadow: gold !important;
+      /* !important is a CSS property that gives something more weight/priority in your code. It allows you to override any following rules. */
+      background-image: url(https://media1.giphy.com/media/gxNzkOTqXeYX6/giphy.gif);
+      background-position: 50px;
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+      /* This CSS property makes is possible to animate html elements without using javascript or flash. */
+      /* This animation makes an element shake on the webpage. */
+      /* a cubic bezier is a CSS function that defines a cubic bezier curve. It has 4 points with P0 as the start and P3 a s the end. */
+      animation-iteration-count: infinite;
+      /* This property sets how many times an animation will run for.*/
+      /* infinite, when applied to animation-interactin-count, loops the animation so that it runs forever. */
+      transform: translate3d(0, 0, 0);
+      /* The transform property modifies the CSS's coordinate plane. With this property, you can rotate, sclae, skew, or translate an element. */
+      /* The translate3d CSS function places an element into a 3d space. */
+      backface-visibility: hidden;
+      /* This property defines if the back face of an element should be visible. The back face is a mirror image of the front face being displayed. */
+      /* Hidden makes the back face invisible. */
+      perspective: 1000px;
+      /* Perspective is a CSS transform function that defines how far an element is away from a webpage's user.*/
+    }
+
+    @keyframes shake {
+      /* This is a rule that specifies an animation code. */
+
+      10%, 90% {
+        /* percentages represent a percentage of the animation duration. */
+        transform: translate3d(-1px, 0, 0);
+      }
+
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+      }
+
+      30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+      }
+
+      40%, 60% {
+        transform: translate3d(4px, 0, 0);
+      }
+    }
+
+    a:hover{
+      background: -webkit-linear-gradient(gold,red,blue);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .AH-image:hover {
+      /* this provides styling for a specific class named within the html body */
+      transform: rotate(180deg);
+      /* Rotate defines a 2d rotation with an angle specified in the parameter. */
+      /* (180deg) represents the angle to which the element will rotate. */
+    }
+  </style>
+</head>
+
+<!-- HTML goes here! -->
+  <body>
+    <!-- The body tage is an html tag that defines what is actually on a webpage and/or withing the document's body. -->
+      <h1> O <b> Superman </b> O judge </h1>
+      <!-- h1 represents heading 1. Heading 1 is the most important heading.  -->
+      <!-- the b tag creates a "b" element, making the text bold. -->
+
+      <h2> O Mom and Dad Mom and Dad </h2>
+      <!-- h2 represents heading 2. It is the 2nd most important heading and is thus standardly placed in a smaller size than h1.-->
+
+      <h3>
+        <!-- h3 represents heading 3. It is the 3rd heading level in html. -->
+        <marquee> Ah ah ah ah ah
+          <!-- the marquee tag creates a scrolling text or image across you webpage. -->
+        <a style="color:white" href="https://fc1499.github.io/web-nyu-idm/here-come-the-planes/">ah ...</a>
+        <!-- This style attribute is different from a style tag. It allows you to bring CSS into your html and overrides any style set globally. -->
+        <!-- The a tag defines a hyperlink. It allows you to link frm one page to another. -->
+        <!-- href specifies the url of the page the hyperlink routes to.-->
+      </marquee>
+    </h3>
+
+<div class = "AH-image" >
+  <!-- The div tag is a container. It defines a division/section in your HTML document.-->
+  <!-- An html class attribute is used to apply the same style to all elements within that class. -->
+      <img width = 25% src="https://media2.giphy.com/media/OfuOlKnfjOsgM/source.gif">
+      <!-- The img tag allows you to place an image in your html page. -->
+      <!-- src is an attribute that specifies the url of an image. -->
+      <img width = 25.5% src="https://media1.giphy.com/media/xqHZqKYUjcJXO/giphy.gif">
+      <img width = 16.8% src="https://media2.giphy.com/media/LAPgyvIKblMyY/giphy.gif">
+<div>
+
+  </body>
+</html>
+<!-- HTML STOPS here! -->
