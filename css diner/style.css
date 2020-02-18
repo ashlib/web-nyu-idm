@@ -11,13 +11,6 @@ body {
 }
 /* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
 
-@font-face {
-  font-family: 'violet';
-  src: url('./fonts/VioletSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   background-color: thistle;
   color: black;
@@ -48,16 +41,16 @@ body h1 {
   color: seagreen;
 }
 
-/* LEVEL 17: The last-child selectpr selects the last element of another element. Since I have written each line as header 2, using this selector will only apply to style to the last h2 tag. */
+/* LEVEL 17: The last-child selector selects the last element of another element. Since I have written each line as header 2, using this selector will only apply to style to the last h2 tag. */
 h2:last-child {
  color: black
 }
 
-/* LEVEL  */
+/* LEVEL 21: This selector selects and element based on it type and order. I have used it twice to select the secon and third h2 tags. */
 h2:nth-of-type(2) {
- color: purple;
+ color: darksalmon;
 }
 
-h2:nth-of-type(2) {
- color: purple;
+h2:nth-of-type(3) {
+ color: steelblue;
 }
