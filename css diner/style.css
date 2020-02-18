@@ -18,6 +18,11 @@ body {
   font-style: normal;
 }
 
+/* LEVEL 11: This is a universal selector that allows me to apply styling to all elements inside of a class. I have used this selector to set a universal font-size for my body. */
+.my-favorite-things * {
+  font-size: 1em;
+}
+
 /* level 4: here I am selecting an element within another elemen, specifically header 1 inside of <body>. Any styling will only be applied to h1. */
 body h1 {
   color: white;
@@ -27,12 +32,6 @@ body h1 {
 /* LEVEL 7: here I am selecting an element by combining their id selector and class selector. What this does is isolate this id selector so that styling may only be applied to this specific element.*/
 #first-line p {
   color: seagreen;
-  font-size: .75em;
-}
-
-/* LEVEL 7: Combining the class selector with the type selector. Here, all h3 types of class "first-header" are being selected. Any h3 types that do not have class "first-header" will be ignored */
-h3.first-header {
-  color: CornflowerBlue;
 }
 
 /* Following is just an example for assingment */
