@@ -25,10 +25,10 @@ body h1 {
 }
 
 /* LEVEL 7: here I am selecting an element by combining their id selector and class selector. What this does is isolate this id selector so that styling may only be applied to this specific element.*/
-/* #first-line p {
+#first-line p {
   color: seagreen;
   font-size: .75em;
-} */
+}
 
 /* LEVEL 7: Combining the class selector with the type selector. Here, all h3 types of class "first-header" are being selected. Any h3 types that do not have class "first-header" will be ignored */
 h3.first-header {
