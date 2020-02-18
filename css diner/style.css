@@ -54,3 +54,45 @@ h2:nth-of-type(2) {
 h2:nth-of-type(3) {
  color: steelblue;
 }
+
+.image1 img{
+display: block;
+ width: 150px;
+ height: 100px;
+ transform: translate(50px,-600px);
+ }
+
+.image2 img{
+ display: block;
+  width: 150px;
+  height: 100px;
+  transform: translate(1150px,-700px);
+  }
+
+.image3 img{
+  display: block;
+   width: 150px;
+   height: 100px;
+   transform: translate(225px,-550px);
+   }
+
+.image4 img{
+   display: block;
+    width: 150px;
+    height: 100px;
+    transform: translate(975px,-650px);
+    }
+
+.image5 img{
+    display: block;
+     width: 150px;
+     height: 100px;
+     transform: translate(50px,-500px);
+     }
+
+.image6 img{
+         display: block;
+          width: 150px;
+          height: 100px;
+          transform: translate(1150px,-600px);
+          }
