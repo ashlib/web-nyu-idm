@@ -1,4 +1,4 @@
-#Object Meditation: My favorite pair of pants
+#Object Meditation: The last book in my 2nd favorite book series
 
 ### What are 5 words that come to mind when I think of this object
 - Regret
