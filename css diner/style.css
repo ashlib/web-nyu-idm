@@ -18,12 +18,26 @@ body {
   font-style: normal;
 }
 
+body {
+  background-color: thistle;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  font-family: courier new;
+}
+
+.my-favorite-things {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
 /* LEVEL 11: This is a universal selector that allows me to apply styling to all elements inside of a class. I have used this selector to set a universal font-size for my body. */
 .my-favorite-things * {
   font-size: 1em;
 }
 
-/* level 4: here I am selecting an element within another elemen, specifically header 1 inside of <body>. Any styling will only be applied to h1. */
+/* LEVEL 4: here I am selecting an element within another elemen, specifically header 1 inside of <body>. Any styling will only be applied to h1. */
 body h1 {
   color: white;
   font-size: 2em;
@@ -34,36 +48,16 @@ body h1 {
   color: seagreen;
 }
 
-/* Following is just an example for assingment */
-/* LEVEL 14: Selecting direct children of an element. The first p tag within the "outer-container" id is being selected. Anything below the p tag in the heirarchy is not selected. */
-#outer-container > p {
+/* LEVEL 17: The last-child selectpr selects the last element of another element. Since I have written each line as header 2, using this selector will only apply to style to the last h2 tag. */
+h2:last-child {
+ color: black
 }
 
-/* LEVEL 18: Selecting an element by its order in another element. The third p tag as a child element within the body was selected. Elements that are not p tags, or are not the third p tag are not selected. */
-p:nth-child(3) {
-  color:blue;
+/* LEVEL  */
+h2:nth-of-type(2) {
+ color: purple;
 }
 
-/* LEVEL: 23 Selecting elements that are the only ones of their type within the parent element. Here, the green text style has been applied to any p's which are the only ones of their type within a div. If there are multiple p's within one particular div, neither will be styled. */
-div p:only-of-type {
-  color:green;
-}
-/* example ends here */
-
-body {
-  background-color: thistle;
-  color: black;
-  text-align: center;
-  font-size: 2em;
-}
-
-.my-favorite-things {
-  width: 60%;
-  display: block;
-  margin: auto;
-}
-
-img {
-  width: 40%;
-  padding: 2em;
+h2:nth-of-type(2) {
+ color: purple;
 }
