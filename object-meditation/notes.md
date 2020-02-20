@@ -13,7 +13,7 @@
 - Outside in the rain
 - School office
 
-### What des my object look feel like?
+### What does my object look feel like?
 - Fragile
 - Hard
 - Binding is thin and crisp due to peeling
