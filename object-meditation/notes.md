@@ -15,11 +15,17 @@
 
 ### What des my object look feel like?
 - Fragile
-- Hard but "molty"
+- Hard
+- Binding is thin and crisp due to peeling
+- Corner edges are soft
 
 ### sound like?
-
+ - soft, but swift sound when I touch the pages
+ - thump sound when I place it down
+ - unidentifiable sound when I turn pages (can't put into words)
 ### smell like?
+- neutral scent
+- cover has a "sour" scent?
 
 ### Where did you get your object?
 - Amazon
