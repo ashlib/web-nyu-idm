@@ -11,15 +11,14 @@ body {
   font-style: normal;
 }
 
-/* how would I set different background color for different pages? */
-body {
+.home_screen body {
   background-color: gold;
   color: royalblue;
   text-align: center;
   font-size: 2em;
 }
 
-h1 {
+.home_screen h1 {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -39,7 +38,77 @@ h1 {
 }
 
 .home_screen a:hover {
-  color: grey;
+  color: dimgrey;
+}
+
+.light_mode body {
+  background-color: goldenrod;
+  text-align: center;
+  font-size: 2em;
+}
+
+.light_mode p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-75%);
+}
+
+.light_mode a {
+  color: aliceblue
+}
+
+.light_mode a:hover {
+  color: dimgrey;
+}
+
+.dark_mode body {
+  background-color: dimgrey;
+  text-align: center;
+  font-size: 2em;
+}
+
+.dark_mode p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-75%);
+}
+
+.dark_mode a {
+  color: aliceblue;
+}
+
+.dark_mode a:hover {
+  color: goldenrod;
+}
+
+.aelin_light body {
+  background-color: orangered;
+  color: royalblue;
+  text-align: center;
+  font-size: 2em;
+}
+
+.dorian_light body {
+  background-color: navy;
+  color: royalblue;
+  text-align: center;
+  font-size: 2em;
+}
+
+.manon_light body {
+  background-color: red;
+  color: royalblue;
+  text-align: center;
+  font-size: 2em;
+}
+
+.yrene_light body {
+  background-color: mediumorchid;
+  color: royalblue;
+  text-align: center;
+  font-size: 2em;
 }
 
 @media only screen and (max-width: 600px) {
