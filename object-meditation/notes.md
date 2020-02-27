@@ -1,4 +1,4 @@
-#Object Meditation: The last book in my 2nd favorite book series
+# Object Meditation: The last book in my 2nd favorite book series
 
 ### What are 5 words that come to mind when I think of this object
 - Regret
@@ -13,7 +13,7 @@
 - Outside in the rain
 - School office
 
-### What des my object look feel like?
+### What does my object look feel like?
 - Fragile
 - Hard
 - Binding is thin and crisp due to peeling
