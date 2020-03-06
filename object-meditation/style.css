@@ -13,7 +13,6 @@ body {
 
 .home_screen body {
   background-color: gold;
-  color: royalblue;
   text-align: center;
   font-size: 2em;
 }
@@ -47,11 +46,17 @@ body {
   font-size: 2em;
 }
 
-.light_mode p {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-75%);
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 7.5em;
+}
+
+.buttons img{
+  width: 5em;
+  height: 5em;
 }
 
 .light_mode a {
@@ -111,15 +116,7 @@ body {
   font-size: 2em;
 }
 
-.image1 img{
-  /* justify-content: center;
-  grid-column: 2;
-grid-row: 10; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-   /* transform: translate(50px,-600px); */
-}
+
 
 @media only screen and (max-width: 600px) {
   body {
