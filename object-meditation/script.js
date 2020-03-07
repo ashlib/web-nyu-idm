@@ -1,4 +1,5 @@
-console.log("I'm here, I'm here!!")
-function fade() {
-  $('#aelin').fadeOut(1500);
-}
+$(document).ready(function() {
+  console.log( "ready!" );
+
+  $('#hometitle').fadeIn(1500);
+});

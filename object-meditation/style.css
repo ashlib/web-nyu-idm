@@ -12,13 +12,14 @@ body {
 }
 
 .home_screen body {
-  background-color: gold;
-  color: royalblue;
+  background-color: #FFD700;
+  color: #4169E1;
   text-align: center;
   font-size: 2em;
 }
 
 .home_screen h1 {
+  display: none;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -34,90 +35,113 @@ body {
 }
 
 .home_screen a{
-  color: aliceblue;
+  color: 	#E6F1F9;
 }
 
 .home_screen a:hover {
-  color: dimgrey;
+  color: #C5A008;
 }
 
-.light_mode body {
-  background-color: goldenrod;
+.characters_page body {
+  background-color: #4169E1;
   text-align: center;
   font-size: 2em;
 }
 
-.buttons {
+.characters_page a {
+  color: #E6F1F9;
+}
+
+.characters_page a:hover {
+  color: #FFD700;
+}
+
+.char_buttons {
   display: flex;
   align-items: center;
   justify-content: space-around;
   position: relative;
-  top: 7.5em;
+  top: 7em;
 }
 
-.buttons img{
-  width: 5em;
-  height: 5em;
+.aelin_button img {
+  width: 7em;
+  height: 7em;
 }
 
-.light_mode a {
-  color: aliceblue
+.dorian_button img {
+  width: 5.25em;
+  height: 6.75em;
+  transform: translateY(-5%);
 }
 
-.light_mode a:hover {
-  color: dimgrey;
+.manon_button img {
+  width: 7em;
+  height: 7.5em;
+  transform: translateY(5%);
 }
 
-.dark_mode body {
-  background-color: dimgrey;
-  text-align: center;
-  font-size: 2em;
+.yrene_button img {
+  width: 6.5em;
+  height: 7em;
+  transform: translateY(-5%);
 }
 
-.dark_mode p {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-75%);
-}
-
-.dark_mode a {
-  color: aliceblue;
-}
-
-.dark_mode a:hover {
-  color: goldenrod;
-}
-
-.aelin_light body {
-  background-color: orangered;
+.aelin_profile body {
+  background-color: #25B8B8;
   color: royalblue;
   text-align: center;
   font-size: 2em;
 }
 
-.dorian_light body {
-  background-color: navy;
+.aelin_profile img {
+  position: relative;
+  top: 3em;
+  width: 15em;
+  height:15em;
+}
+
+.dorian_profile body {
+  background-color: #294ABD;
   color: royalblue;
   text-align: center;
   font-size: 2em;
 }
 
-.manon_light body {
-  background-color: red;
+.dorian_profile img {
+  position: relative;
+  top: 3.5em;
+  width: 11em;
+  height:13.5em;
+}
+
+.manon_profile body {
+  background-color: #F11D1D;
   color: royalblue;
   text-align: center;
   font-size: 2em;
 }
 
-.yrene_light body {
-  background-color: mediumorchid;
+.manon_profile img {
+  position: relative;
+  top: 3.5em;
+  width: 15em;
+  height:15em;
+}
+
+.yrene_profile body {
+  background-color: #9B6CBC;
   color: royalblue;
   text-align: center;
   font-size: 2em;
 }
 
-
+.yrene_profile img {
+  position: relative;
+  top: 3.25em;
+  width: 13em;
+  height:14em;
+}
 
 @media only screen and (max-width: 600px) {
   body {
