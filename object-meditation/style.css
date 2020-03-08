@@ -11,6 +11,16 @@ body {
   font-style: normal;
 }
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .home_screen body {
   background-color: #FFD700;
   color: #4169E1;
@@ -19,7 +29,6 @@ body {
 }
 
 .home_screen h1 {
-  display: none;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -34,12 +43,17 @@ body {
   transform: translateX(-50%) translateY(-75%);
 }
 
-.home_screen a{
-  color: 	#E6F1F9;
+.home_screen a {
+  color: #E6F1F9;
 }
 
 .home_screen a:hover {
   color: #C5A008;
+}
+
+.home_screen h1, .home_screen a {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
 }
 
 .characters_page body {
@@ -56,7 +70,7 @@ body {
   color: #FFD700;
 }
 
-.char_buttons {
+.char_btns_container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -64,46 +78,97 @@ body {
   top: 7em;
 }
 
-.aelin_button img {
+.aelin_image img {
   width: 7em;
   height: 7em;
 }
 
-.dorian_button img {
+.dorian_image img {
   width: 5.25em;
   height: 6.75em;
   transform: translateY(-5%);
 }
 
-.manon_button img {
+.manon_image img {
   width: 7em;
   height: 7.5em;
   transform: translateY(5%);
 }
 
-.yrene_button img {
+.yrene_image img {
   width: 6.5em;
   height: 7em;
   transform: translateY(-5%);
 }
 
+li {
+  position: absolute;
+  -webkit-transition: all 1s linear;
+}
+
+small{
+  color: black;
+}
+
 .aelin_profile body {
   background-color: #25B8B8;
-  color: royalblue;
+  color: transparent;
   text-align: center;
   font-size: 2em;
 }
 
 .aelin_profile img {
   position: relative;
-  top: 3em;
+  top: 7em;
   width: 15em;
-  height:15em;
+  height: 15em;
+}
+
+.aelin_prof_btns {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  margin: auto;
+  padding: 10px;
+  background-color: turquoise;
+  color: #FFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  font-size: 22px;
+  text-transform: translateY(-20%);
+  transform: translate(600px, -100px);
+  transition: .4s;
+}
+
+.aelin_prof_btns:hover {
+  background-color: white;
+  color:gold;
+ box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+ /* transform: translateY(-2px); because u transformed original already*/
+}
+
+.aelin_prof_hide{
+  display:none;
+}
+
+.aelin_prof_show{
+  display:block;
+  border-radius: 5%;
+  border spacing: 10px;
+  background-color: orange;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  transform: translate(900px, -250px);
 }
 
 .dorian_profile body {
   background-color: #294ABD;
-  color: royalblue;
+  color: transparent;
   text-align: center;
   font-size: 2em;
 }
@@ -112,12 +177,35 @@ body {
   position: relative;
   top: 3.5em;
   width: 11em;
-  height:13.5em;
+  height: 13.5em;
+}
+
+.dorian_prof_btns {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  margin: auto;
+  padding: 10px;
+  background-color: turquoise;
+  color: #FFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  text-transform: translateY(-20%);
+  transition: .4s;
+}
+
+.dorian_prof_btns:hover {
+  background-color: white;
+  color: #fff;
+ box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+ transform: translateY(-7px);
 }
 
 .manon_profile body {
   background-color: #F11D1D;
-  color: royalblue;
+  color: transparent;
   text-align: center;
   font-size: 2em;
 }
@@ -126,12 +214,35 @@ body {
   position: relative;
   top: 3.5em;
   width: 15em;
-  height:15em;
+  height: 15em;
+}
+
+.manon_prof_btns {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  margin: auto;
+  padding: 10px;
+  background-color: turquoise;
+  color: #FFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  text-transform: translateY(-20%);
+  transition: .4s;
+}
+
+.manon_prof_btns:hover {
+  background-color: white;
+  color: #fff;
+ box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+ transform: translateY(-7px);
 }
 
 .yrene_profile body {
   background-color: #9B6CBC;
-  color: royalblue;
+  color: transparent;
   text-align: center;
   font-size: 2em;
 }
@@ -140,10 +251,33 @@ body {
   position: relative;
   top: 3.25em;
   width: 13em;
-  height:14em;
+  height: 14em;
+}
+
+
+.yrene_prof_btns {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  margin: auto;
+  padding: 10px;
+  background-color: turquoise;
+  color: #FFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  text-transform: translateY(-20%);
+  transition: .4s;
+}
+
+.yrene_prof_btns:hover {
+  background-color: white;
+  color: #fff;
+ box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+ transform: translateY(-7px);
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-  }
+  body {}
 }
