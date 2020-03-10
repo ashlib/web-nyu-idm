@@ -57,7 +57,7 @@ function aelinAbilClick() {
 }
 
 function dorianAppClick() {
-  document.getElementById('dorian_app').className = "show"
+  document.getElementById('dorian_app').className = "dorian_prof_show"
   $( "#dorian_app" ).click( function() {
     $( "#dorian_app" ).toggle( "fast", function () {
     });
@@ -65,7 +65,7 @@ function dorianAppClick() {
 }
 
 function dorianPersClick() {
-  document.getElementById('dorian_pers').className = "show";
+  document.getElementById('dorian_pers').className = "dorian_prof_show";
   $( "#dorian_pers" ).click( function() {
     $( "#dorian_pers" ).toggle( "fast", function () {
     });
@@ -73,7 +73,7 @@ function dorianPersClick() {
 }
 
 function dorianOrigClick() {
-  document.getElementById('dorian_orig').className = "show";
+  document.getElementById('dorian_orig').className = "dorian_prof_show";
   $( "#dorian_orig" ).click( function() {
     $( "#dorian_orig" ).toggle( "fast", function () {
     });
@@ -81,7 +81,7 @@ function dorianOrigClick() {
 }
 
 function dorianRoleClick() {
-  document.getElementById('dorian_role').className = "show";
+  document.getElementById('dorian_role').className = "dorian_prof_show";
   $( "#dorian_role" ).click( function() {
     $( "#dorian_role" ).toggle( "fast", function () {
     });
@@ -89,7 +89,7 @@ function dorianRoleClick() {
 }
 
 function dorianAbilClick() {
-  document.getElementById('dorian_abil').className = "show";
+  document.getElementById('dorian_abil').className = "dorian_prof_show";
   $( "#dorian_abil" ).click( function() {
     $( "#dorian_abil" ).toggle( "fast", function () {
     });
@@ -97,7 +97,7 @@ function dorianAbilClick() {
 }
 
 function manonAppClick(){
-   document.getElementById('manon_app').className="show"
+   document.getElementById('manon_app').className="manon_prof_show"
    $( "#manon_app" ).click( function() {
      $( "#manon_app" ).toggle( "fast", function () {
      });
@@ -105,7 +105,7 @@ function manonAppClick(){
  }
 
  function manonPersClick(){
-   document.getElementById('manon_pers').className="show";
+   document.getElementById('manon_pers').className="manon_prof_show";
    $( "#manon_pers" ).click( function() {
      $( "#manon_pers" ).toggle( "fast", function () {
      });
@@ -113,7 +113,7 @@ function manonAppClick(){
  }
 
  function manonOrigClick(){
-  document.getElementById('manon_orig').className="show";
+  document.getElementById('manon_orig').className="manon_prof_show";
   $( "#manon_orig" ).click( function() {
     $( "#manon_orig" ).toggle( "fast", function () {
     });
@@ -121,7 +121,7 @@ function manonAppClick(){
  }
 
  function manonRoleClick(){
-   document.getElementById('manon_role').className="show";
+   document.getElementById('manon_role').className="manon_prof_show";
    $( "#manon_role" ).click( function() {
      $( "#manon_role" ).toggle( "fast", function () {
      });
@@ -129,7 +129,7 @@ function manonAppClick(){
  }
 
  function manonAbilClick(){
-   document.getElementById('manon_abil').className="show";
+   document.getElementById('manon_abil').className="manon_prof_show";
    $( "#manon_abil" ).click( function() {
      $( "#manon_abil" ).toggle( "fast", function () {
      });
