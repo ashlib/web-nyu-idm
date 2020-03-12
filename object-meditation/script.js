@@ -137,7 +137,7 @@ function manonAppClick(){
  }
 
  function yreneAppClick(){
-    document.getElementById('yrene_app').className="show"
+    document.getElementById('yrene_app').className="yrene_prof_show"
     $( "#yrene_app" ).click( function() {
       $( "#yrene_app" ).toggle( "fast", function () {
       });
@@ -145,7 +145,7 @@ function manonAppClick(){
   }
 
   function yrenePersClick(){
-    document.getElementById('yrene_pers').className="show";
+    document.getElementById('yrene_pers').className="yrene_prof_show";
     $( "#yrene_pers" ).click( function() {
       $( "#yrene_pers" ).toggle( "fast", function () {
       });
@@ -153,7 +153,7 @@ function manonAppClick(){
   }
 
   function yreneOrigClick(){
-   document.getElementById('yrene_orig').className="show";
+   document.getElementById('yrene_orig').className="yrene_prof_show";
    $( "#yrene_orig" ).click( function() {
      $( "#yrene_orig" ).toggle( "fast", function () {
      });
@@ -161,7 +161,7 @@ function manonAppClick(){
   }
 
   function yreneRoleClick(){
-    document.getElementById('yrene_role').className="show";
+    document.getElementById('yrene_role').className="yrene_prof_show";
     $( "#yrene_role" ).click( function() {
       $( "#yrene_role" ).toggle( "fast", function () {
       });
@@ -169,7 +169,7 @@ function manonAppClick(){
   }
 
   function yreneAbilClick(){
-    document.getElementById('yrene_abil').className="show";
+    document.getElementById('yrene_abil').className="yrene_prof_show";
     $( "#yrene_abil" ).click( function() {
       $( "#yrene_abil" ).toggle( "fast", function () {
       });
