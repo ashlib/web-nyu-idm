@@ -1,17 +1,33 @@
 //Welcome to the in-class challenge!
 
+
 let myAlphabet = ['A', 'B', 'C', 'D','E','F','G'];
 
 // 1. What is the length of the array?
-// the length is 7, from 0 to 6
+
+// myAlphabet.length
 
 // push your edits to github!!
 
 // 2. Write a function called myAlphabetLength which console.logs the length of the array
 // push your edits to github!!
 
+function myAlphabetLength(){
+  myAlphabet.length;
+  console.log(myAlphabet.length);
+}
+
+myAlphabetLength();
+
+// let m = myAlphabetLength(myAlphabet.length)
+// console.log(m)
+
+
 // 3. Within the function also use an if-conditional statement that checks if the number of items within the array are less than 4
 // push your edits to github!!
+
+
+
 
 // 4. Declare and initialize an array called 'colors' with 5 different string values representing the names of 5 colors of your choosing
 // push your edits to github!!
