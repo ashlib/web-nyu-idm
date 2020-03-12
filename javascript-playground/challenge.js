@@ -3,7 +3,7 @@
 let myAlphabet = ['A', 'B', 'C', 'D','E','F','G'];
 
 // 1. What is the length of the array?
-
+// the length is 7, from 0 to 6
 
 // push your edits to github!!
 
