@@ -106,12 +106,8 @@ li {
   @-webkit-transition: all 1s linear;
 }
 
-small{
-  color: black;
-}
-
 .aelin_profile body {
-  background-color: #25B8B8;
+  background-color: #FB6207;
   color: transparent;
   text-align: center;
   font-size: 2em;
@@ -124,28 +120,31 @@ small{
   height: 15em;
 }
 
+.aelin_profile small{
+  color: #D1D1D1;
+}
+
 .aelin_prof_btns {
   display: inline-block;
   border: none;
   border-radius: 50%;
   margin: auto;
   padding: 10%;
-  background-color: turquoise;
-  color: #FFF;
+  background-color: #2EFAEF;
+  color: #FFFFFF;
   box-shadow: 0% 10% 20% rgba(0, 0, 0, 0.1);
   cursor: pointer;
   width: 150px;
   height: 150px;
-  font-size: 22px;
-  text-transform: translateY(-20%);
+  font-size: 65%;
   transform: translate(425%, -75%);
   transition: .4s;
 }
 
 .aelin_prof_btns:hover {
-  background-color: white;
-  color:gold;
- box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+  background-color: #FFFFFF;
+  color: #D1D1D1;
+  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
  /* transform: translateY(-2px); because u transformed original already*/
 }
 
@@ -157,13 +156,13 @@ small{
   display:block;
   border-radius: 5%;
   border spacing: 10px;
-  background-color: orange;
+  background-color: #298332;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   width: 350px;
-  color: white;
+  color: #FFFFFF;
   font-size: 20px;
   text-align: center;
-  transform: translate(900px, -250px);
+  transform: translate(175%, -75%);
 }
 
 .dorian_profile body {
@@ -180,28 +179,31 @@ small{
   height: 13.5em;
 }
 
+.dorian_profile small{
+  color: #000000;
+}
+
 .dorian_prof_btns {
   display: inline-block;
   border: none;
   border-radius: 50%;
   margin: auto;
   padding: 10px;
-  background-color: turquoise;
-  color: #FFF;
+  background-color: #EA0000;
+  color: #FFFFFF;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   width: 150px;
   height: 150px;
-  font-size: 22px;
-  text-transform: translateY(-20%);
+  font-size: 65%;
   transform: translate(600px, -50px);
   transition: .4s;
 }
 
 .dorian_prof_btns:hover {
-  background-color: white;
-  color:gold;
- box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+  background-color: #FFFFFF;
+  color: #000000;
+  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
  /* transform: translateY(-2px); because u transformed original already*/
 }
 
@@ -213,7 +215,7 @@ small{
   display:block;
   border-radius: 5%;
   border spacing: 10px;
-  background-color: orange;
+  background-color: #CFAD20;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   width: 350px;
   color: white;
@@ -223,7 +225,7 @@ small{
 }
 
 .manon_profile body {
-  background-color: #F11D1D;
+  background-color: #EA0000;
   color: transparent;
   text-align: center;
   font-size: 2em;
@@ -236,28 +238,31 @@ small{
   height: 15em;
 }
 
+.manon_profile small{
+  color: #CFAD20;
+}
+
 .manon_prof_btns {
   display: inline-block;
   border: none;
   border-radius: 50%;
   margin: auto;
   padding: 10px;
-  background-color: turquoise;
-  color: #FFF;
+  background-color: #000000;
+  color: #FFFFFF;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   width: 150px;
   height: 150px;
-  font-size: 22px;
-  text-transform: translateY(-20%);
+  font-size: 65%;
   transform: translate(600px, -100px);
   transition: .4s;
 }
 
 .manon_prof_btns:hover {
-  background-color: white;
-  color:gold;
- box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+  background-color: #FFFFFF;
+  color: #CFAD20;
+  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
  /* transform: translateY(-2px); because u transformed original already*/
 }
 
@@ -269,17 +274,17 @@ small{
   display:block;
   border-radius: 5%;
   border spacing: 10px;
-  background-color: orange;
+  background-color: #D1D1D1;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   width: 350px;
-  color: white;
+  color: #000000;
   font-size: 20px;
   text-align: center;
   transform: translate(900px, -250px);
 }
 
 .yrene_profile body {
-  background-color: #9B6CBC;
+  background-color: #A36CA7;
   color: transparent;
   text-align: center;
   font-size: 2em;
@@ -292,27 +297,30 @@ small{
   height: 14em;
 }
 
+.yrene_profile small {
+  color: #FFEC64;
+}
+
 .yrene_prof_btns {
   display: inline-block;
   border: none;
   border-radius: 50%;
   margin: auto;
   padding: 10px;
-  background-color: turquoise;
+  background-color: #CFAD20;
   color: #FFF;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   width: 150px;
   height: 150px;
-  font-size: 22px;
-  text-transform: translateY(-20%);
+  font-size: 65%;
   transform: translate(600px, -50px);
   transition: .4s;
 }
 
 .yrene_prof_btns:hover {
-  background-color: white;
-  color:gold;
+  background-color: #FFFFFF;
+  color: #FFEC64;
  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
  /* transform: translateY(-2px); because u transformed original already*/
 }
@@ -325,7 +333,7 @@ small{
   display:block;
   border-radius: 5%;
   border spacing: 10px;
-  background-color: orange;
+  background-color: #874903;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   width: 350px;
   color: white;
