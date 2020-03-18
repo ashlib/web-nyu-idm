@@ -15,8 +15,35 @@ $elements.each(function(i) {
   });
 });
 
+
+$("#page_turner").turn({
+		width: 500,
+		height: 300,
+		autoCenter: true
+	});
+
+function showAelinPage ()  {
+  document.getElementById('aelin_img'). className = "aelin_img_hide";
+    document.getElementById('show_aelin'). className = "aelin_pg_show";
+}
+
+function showDorianPage() {
+document.getElementById('dorian_img'). className = "dorian_img_hide";
+  document.getElementById('show_dorian'). className = "dorian_pg_show";
+}
+
+function showManonPage() {
+document.getElementById('manon_img'). className = "manon_img_hide";
+  document.getElementById('show_manon'). className = "manon_pg_show";
+}
+
+function showYrenePage() {
+document.getElementById('yrene_img'). className = "yrene_img_hide";
+  document.getElementById('show_yrene'). className = "yrene_pg_show";
+}
+
 function aelinAppClick ()  {
-    document.getElementById('aelin_app'). className = "aelin_prof_show"
+    document.getElementById('aelin_app'). className = "aelin_prof_show";
 $( "#aelin_app" ).click( function() {
   $( "#aelin_app" ).toggle( "fast", function () {
   });
@@ -57,7 +84,7 @@ function aelinAbilClick() {
 }
 
 function dorianAppClick() {
-  document.getElementById('dorian_app').className = "dorian_prof_show"
+  document.getElementById('dorian_app').className = "dorian_prof_show";
   $( "#dorian_app" ).click( function() {
     $( "#dorian_app" ).toggle( "fast", function () {
     });
@@ -97,7 +124,7 @@ function dorianAbilClick() {
 }
 
 function manonAppClick(){
-   document.getElementById('manon_app').className="manon_prof_show"
+   document.getElementById('manon_app').className="manon_prof_show";
    $( "#manon_app" ).click( function() {
      $( "#manon_app" ).toggle( "fast", function () {
      });
@@ -137,7 +164,7 @@ function manonAppClick(){
  }
 
  function yreneAppClick(){
-    document.getElementById('yrene_app').className="yrene_prof_show"
+    document.getElementById('yrene_app').className="yrene_prof_show";
     $( "#yrene_app" ).click( function() {
       $( "#yrene_app" ).toggle( "fast", function () {
       });
