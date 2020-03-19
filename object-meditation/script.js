@@ -15,33 +15,48 @@ $elements.each(function(i) {
   });
 });
 
-$(document).ready(function() {
-
-  $("#shock").click(function() {
-    $("body").css({
-      "background-color": "blue"
-    });
+$("#bliss_Ael").click(function change() {
+  $("body").css({
+    "background-color": "#FB6207"
   });
-
-  $("#anger").click(function() {
-    $("body").css({
-      "background-color": "black"
-    });
-  });
-
-  $("#resigned").click(function() {
-    $("body").css({
-      "background-color": "white"
-    });
-  });
-
 });
 
-$("#page_turner").turn({
-		width: 500,
-		height: 300,
-		autoCenter: true
-	});
+$("#bliss_Dor").click(function() {
+  $("body").css({
+    "background-color": "#294ABD"
+  });
+});
+
+$("#bliss_Man").click(function() {
+  $("body").css({
+    "background-color": "#EA0000"
+  });
+});
+
+$("#bliss_Yre").click(function() {
+  $("body").css({
+    "background-color": "#A36CA7"
+  });
+});
+
+
+$("#shock").click(function() {
+  $("body").css({
+    "background-color": "blue"
+  });
+});
+
+$("#anger").click(function() {
+  $("body").css({
+    "background-color": "black"
+  });
+});
+
+$("#resigned").click(function() {
+  $("body").css({
+    "background-color": "white"
+  });
+});
 
 function showAelinPage ()  {
   document.getElementById('aelin_img'). className = "aelin_img_hide";

@@ -11,27 +11,66 @@ body {
   font-style: normal;
 }
 
-.vibe_buttons {
-  display: flex;
-  align-items: stretch;
-  position: fixed;
-  bottom: 1em;
-  right: 1em;
+.vibe_btns {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 24%;
+}
+
+.vibe_btns:hover {
+  background-color: #777;
+}
+
+#home {
+  width: 4%;
 }
 
 #shock {
-  width: 25%;
-  height: 25%;
+  background-color: #FB00CD ;
+  color: #2EFAEF;
+  font-weight: bold;
 }
 
 #anger {
-  width: 25%;
-  height: 25%;
+  background-color: #26272E;
+  color: #505050;
+  font-weight: bold;
 }
 
 #resigned {
-  width: 25%;
-  height: 25%;
+  background-color: #E7C39F;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#bliss_Ael {
+  background-color: #2EFAEF;
+  color: #FB6207;
+  font-weight: bold;
+}
+
+#bliss_Dor {
+  background-color: #EA0000;
+  color: #294ABD;
+  font-weight: bold;
+}
+
+#bliss_Man {
+background-color: #000000;
+color: #EA0000;
+font-weight: bold;
+}
+
+#bliss_Yre {
+background-color: #CFAD20;
+color: #A36CA7;
+font-weight: bold;
 }
 
 .home_screen body {
@@ -87,6 +126,7 @@ body {
 
 .characters_page a {
   color: #E6F1F9;
+  text-decoration: none;
 }
 
 .characters_page a:hover {
@@ -175,7 +215,7 @@ body {
 
 li {
   position: absolute;
-  @-webkit-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
 }
 
 .aelin_profile body {
@@ -201,7 +241,7 @@ li {
   border: none;
   border-radius: 50%;
   margin: auto;
-  padding: 10%;
+  padding: 10px;
   background-color: #2EFAEF;
   color: #FFFFFF;
   box-shadow: 0% 10% 20% rgba(0, 0, 0, 0.1);
@@ -209,7 +249,7 @@ li {
   width: 150px;
   height: 150px;
   font-size: 65%;
-  transform: translate(425%, -75%);
+  transform: translate(500%, -75%);
   transition: .4s;
 }
 
@@ -234,7 +274,7 @@ li {
   color: #FFFFFF;
   font-size: 20px;
   text-align: center;
-  transform: translate(175%, -75%);
+  transform: translate(900px, -250px);
 }
 
 .dorian_profile body {
@@ -246,7 +286,7 @@ li {
 
 .dorian_profile img {
   position: relative;
-  top: 7em;
+  top: 8em;
   width: 11em;
   height: 13.5em;
 }
@@ -263,12 +303,12 @@ li {
   padding: 10px;
   background-color: #EA0000;
   color: #FFFFFF;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0% 10% 20% rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   font-size: 65%;
-  transform: translate(600px, -50px);
+  transform: translate(500%, -25%);
   transition: .4s;
 }
 
@@ -290,7 +330,7 @@ li {
   background-color: #CFAD20;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   width: 350px;
-  color: white;
+  color: #FFFFFF;
   font-size: 20px;
   text-align: center;
   transform: translate(900px, -250px);
@@ -327,7 +367,7 @@ li {
   width: 150px;
   height: 150px;
   font-size: 65%;
-  transform: translate(600px, -100px);
+  transform: translate(500%, -75%);
   transition: .4s;
 }
 
@@ -386,7 +426,7 @@ li {
   width: 150px;
   height: 150px;
   font-size: 65%;
-  transform: translate(600px, -50px);
+  transform: translate(500%, -50%);
   transition: .4s;
 }
 
