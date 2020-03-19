@@ -15,6 +15,27 @@ $elements.each(function(i) {
   });
 });
 
+$(document).ready(function() {
+
+  $("#shock").click(function() {
+    $("body").css({
+      "background-color": "blue"
+    });
+  });
+
+  $("#anger").click(function() {
+    $("body").css({
+      "background-color": "black"
+    });
+  });
+
+  $("#resigned").click(function() {
+    $("body").css({
+      "background-color": "white"
+    });
+  });
+
+});
 
 $("#page_turner").turn({
 		width: 500,

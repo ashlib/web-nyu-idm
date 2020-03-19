@@ -11,6 +11,29 @@ body {
   font-style: normal;
 }
 
+.vibe_buttons {
+  display: flex;
+  align-items: stretch;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+
+#shock {
+  width: 25%;
+  height: 25%;
+}
+
+#anger {
+  width: 25%;
+  height: 25%;
+}
+
+#resigned {
+  width: 25%;
+  height: 25%;
+}
+
 .home_screen body {
   background-color: #FFD700;
   color: #4169E1;
