@@ -15,12 +15,31 @@ $elements.each(function(i) {
   });
 });
 
+setTimeout(function() { // start a delay
+  var fade = document.getElementById("fade"); // get required element
+  fade.style.opacity = 1; // set opacity for the element to 1
+  var timerId = setInterval(function() { // start interval loop
+    var opacity = fade.style.opacity; // get current opacity
+    if (opacity == 0) { // check if its 0 yet
+      clearInterval(timerId); // if so, exit from interval loop
+    } else {
+      fade.style.opacity = opacity - 0.001; // else remove 0.05 from opacity
+    }
+  }, 100); // run every 0.1 second
+}, 5000); // wait to run after 5 seconds
+
 $("#shock").click(function() {
   $("#home").css({
     "background-color": "#55FF00"
   });
-  $("#home").css({
+  $("#home a").css({
     "color": "#FFFFFF"
+  });
+  $("#back").css({
+    "background-color": "#55FF00"
+  });
+  $("#next").css({
+    "background-color": "#55FF00"
   });
   $("body").css({
     "background-color": "#55FF00"
@@ -46,8 +65,14 @@ $("#anger").click(function() {
   $("#home").css({
     "background-color": "#000000"
   });
-  $("#home").css({
+  $("#home a").css({
     "color": "#FFFFFF"
+  });
+  $("#back").css({
+    "background-color": "#000000"
+  });
+  $("#next").css({
+    "background-color": "#000000"
   });
   $("body").css({
     "background-color": "#000000"
@@ -73,7 +98,19 @@ $("#resigned").click(function() {
   $("#home").css({
     "background-color": "#FFFFFF"
   });
-  $("#home").css({
+  $("#home a").css({
+    "color": "#E6E6E6"
+  });
+  $("#back").css({
+    "background-color": "#FFFFFF"
+  });
+  $("#back a").css({
+    "color": "#E6E6E6"
+  });
+  $("#next").css({
+    "background-color": "#FFFFFF"
+  });
+  $("#next a").css({
     "color": "#E6E6E6"
   });
   $("body").css({
@@ -100,8 +137,14 @@ $("#bliss_Ael").click(function change() {
   $("#home").css({
     "background-color": "#FB6207"
   });
-  $("#home").css({
+  $("#home a").css({
     "color": "#FFFFFF"
+  });
+  $("#back").css({
+    "background-color": "#FB6207"
+  });
+  $("#next").css({
+    "background-color": "#FB6207"
   });
   $("body").css({
     "background-color": "#FB6207"
@@ -127,8 +170,14 @@ $("#bliss_Dor").click(function() {
   $("#home").css({
     "background-color": "#294ABD"
   });
-  $("#home").css({
+  $("#home a").css({
     "color": "#FFFFFF"
+  });
+  $("#back").css({
+    "background-color": "#294ABD"
+  });
+  $("#next").css({
+    "background-color": "#294ABD"
   });
   $("body").css({
     "background-color": "#294ABD"
@@ -154,8 +203,14 @@ $("#bliss_Man").click(function() {
   $("#home").css({
     "background-color": "#EA0000"
   });
-  $("#home").css({
+  $("#home a").css({
     "color": "#FFFFFF"
+  });
+  $("#back").css({
+    "background-color": "#EA0000"
+  });
+  $("#next").css({
+    "background-color": "#EA0000"
   });
   $("body").css({
     "background-color": "#EA0000"
@@ -179,6 +234,15 @@ $("#bliss_Man").click(function() {
 
 $("#bliss_Yre").click(function() {
   $("#home").css({
+    "background-color": "#A36CA7"
+  });
+  $("#home a").css({
+    "color": "#FFFFFF"
+  });
+  $("#back").css({
+    "background-color": "#A36CA7"
+  });
+  $("#next").css({
     "background-color": "#A36CA7"
   });
   $("body").css({
@@ -228,7 +292,6 @@ $( "#aelin_app" ).click( function() {
   });
 });
 }
-
 
 function aelinPersClick() {
   document.getElementById('aelin_pers').className = "aelin_prof_show";
