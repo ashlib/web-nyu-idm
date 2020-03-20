@@ -12,8 +12,6 @@ body {
 }
 
 .vibe_btns {
-  background-color: #555;
-  color: white;
   float: left;
   border: none;
   outline: none;
@@ -23,18 +21,57 @@ body {
   width: 24%;
 }
 
-.vibe_btns:hover {
-  background-color: #777;
+/* .turn_page {
+  position: absolute;
+  top: -50em;
+  background-color: #555;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 5%;
+} */
+
+/* #next{
+  transform: translateX(50%);
+} */
+
+.aelin_profile #home {
+  width: 4%;
+  background-color: #FB6207;
+  color: #FFFFFF;
 }
 
-#home {
+.dorian_profile #home {
   width: 4%;
+  background-color: #294ABD;
+  color: #FFFFFF;
+}
+
+.manon_profile #home {
+  width: 4%;
+  background-color: #EA0000;
+  color: #FFFFFF;
+}
+
+.yrene_profile #home {
+  width: 4%;
+  background-color: #A36CA7;
+  color: #FFFFFF;
 }
 
 #shock {
-  background-color: #FB00CD ;
+  background-color: #FB00CD;
   color: #2EFAEF;
   font-weight: bold;
+}
+
+#shock:hover {
+  background-color: #2EFAEF;
+  color: #FB00CD;
+  box-shadow: 0px 5px 10px rgba(163, 255, 255, 0.4);
 }
 
 #anger {
@@ -43,10 +80,22 @@ body {
   font-weight: bold;
 }
 
+#anger:hover {
+  background-color: #505050;
+  color: #26272E;
+  box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.4);
+}
+
 #resigned {
   background-color: #E7C39F;
   color: #FFFFFF;
   font-weight: bold;
+}
+
+#resigned:hover {
+  background-color: #FFFFFF;
+  color: #E7C39F;
+  box-shadow: 0px 5px 10px rgba(255,255,255, 0.4);
 }
 
 #bliss_Ael {
@@ -55,10 +104,22 @@ body {
   font-weight: bold;
 }
 
+#bliss_Ael:hover {
+  background-color: #FB6207;
+  color: #2EFAEF;
+  box-shadow: 0px 5px 10px rgba(216, 85, 0, 0.4);
+}
+
 #bliss_Dor {
   background-color: #EA0000;
   color: #294ABD;
   font-weight: bold;
+}
+
+#bliss_Dor:hover {
+  background-color: #294ABD;
+  color: #EA0000;
+  box-shadow: 0px 5px 10px rgba(30, 39, 155, 0.4);
 }
 
 #bliss_Man {
@@ -67,10 +128,22 @@ color: #EA0000;
 font-weight: bold;
 }
 
+#bliss_Man:hover {
+  background-color: #EA0000;
+  color: #000000;
+  box-shadow: 0px 5px 10px rgba(170, 0, 0, 0.4);
+}
+
 #bliss_Yre {
 background-color: #CFAD20;
 color: #A36CA7;
 font-weight: bold;
+}
+
+#bliss_Yre:hover {
+  background-color: #A36CA7;
+  color: #CFAD20;
+  box-shadow: 0px 5px 10px rgba(148, 70, 152, 0.4);
 }
 
 .home_screen body {

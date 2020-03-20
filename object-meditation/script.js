@@ -15,46 +15,189 @@ $elements.each(function(i) {
   });
 });
 
-$("#bliss_Ael").click(function change() {
-  $("body").css({
-    "background-color": "#FB6207"
-  });
-});
-
-$("#bliss_Dor").click(function() {
-  $("body").css({
-    "background-color": "#294ABD"
-  });
-});
-
-$("#bliss_Man").click(function() {
-  $("body").css({
-    "background-color": "#EA0000"
-  });
-});
-
-$("#bliss_Yre").click(function() {
-  $("body").css({
-    "background-color": "#A36CA7"
-  });
-});
-
-
 $("#shock").click(function() {
+  $("#home").css({
+    "background-color": "#55FF00"
+  });
+  $("#home").css({
+    "color": "#FFFFFF"
+  });
   $("body").css({
-    "background-color": "blue"
+    "background-color": "#55FF00"
+  });
+  $("input").css({
+    "background-color": "#FF00E4"
+  });
+  $("input").css({
+    "color": "#FF9700"
+  });
+  $("p").css({
+    "background-color": "#FFFF00"
+  });
+  $("p").css({
+    "color": "#00FFE4"
+  });
+  $("small").css({
+    "color": "#FFFFFF"
   });
 });
 
 $("#anger").click(function() {
+  $("#home").css({
+    "background-color": "#000000"
+  });
+  $("#home").css({
+    "color": "#FFFFFF"
+  });
   $("body").css({
-    "background-color": "black"
+    "background-color": "#000000"
+  });
+  $("input").css({
+    "background-color": "#181818"
+  });
+  $("input").css({
+    "color": "#505050"
+  });
+  $("p").css({
+    "background-color": "#252525"
+  });
+  $("p").css({
+    "color": "#000000"
+  });
+  $("small").css({
+    "color": "#656566"
   });
 });
 
 $("#resigned").click(function() {
+  $("#home").css({
+    "background-color": "#FFFFFF"
+  });
+  $("#home").css({
+    "color": "#E6E6E6"
+  });
   $("body").css({
-    "background-color": "white"
+    "background-color": "#FFFFFF"
+  });
+  $("input").css({
+    "background-color": "#E6E6E6"
+  });
+  $("input").css({
+    "color": "#E7C39F"
+  });
+  $("p").css({
+    "background-color": "#EED0B1"
+  });
+  $("p").css({
+    "color": "#FFFFFF"
+  });
+  $("small").css({
+    "color": "#B2B2B2"
+  });
+});
+
+$("#bliss_Ael").click(function change() {
+  $("#home").css({
+    "background-color": "#FB6207"
+  });
+  $("#home").css({
+    "color": "#FFFFFF"
+  });
+  $("body").css({
+    "background-color": "#FB6207"
+  });
+  $("input").css({
+    "background-color": "#2EFAEF"
+  });
+  $("input").css({
+    "color": "#FFFFFF"
+  });
+  $("p").css({
+    "background-color": "#298332"
+  });
+  $("p").css({
+    "color": "#FFFFFF"
+  });
+  $("small").css({
+    "color": "#D1D1D1"
+  });
+});
+
+$("#bliss_Dor").click(function() {
+  $("#home").css({
+    "background-color": "#294ABD"
+  });
+  $("#home").css({
+    "color": "#FFFFFF"
+  });
+  $("body").css({
+    "background-color": "#294ABD"
+  });
+  $("input").css({
+    "background-color": "#EA0000"
+  });
+  $("input").css({
+    "color": "#FFFFFF"
+  });
+  $("p").css({
+    "background-color": "#CFAD20"
+  });
+  $("p").css({
+    "color": "#FFFFFF"
+  });
+  $("small").css({
+    "color": "#000000"
+  });
+});
+
+$("#bliss_Man").click(function() {
+  $("#home").css({
+    "background-color": "#EA0000"
+  });
+  $("#home").css({
+    "color": "#FFFFFF"
+  });
+  $("body").css({
+    "background-color": "#EA0000"
+  });
+  $("input").css({
+    "background-color": "#000000"
+  });
+  $("input").css({
+    "color": "#FFFFFF"
+  });
+  $("p").css({
+    "background-color": "#D1D1D1"
+  });
+  $("p").css({
+    "color": "#000000"
+  });
+  $("small").css({
+    "color": "#CFAD20"
+  });
+});
+
+$("#bliss_Yre").click(function() {
+  $("#home").css({
+    "background-color": "#A36CA7"
+  });
+  $("body").css({
+    "background-color": "#A36CA7"
+  });
+  $("input").css({
+    "background-color": "#CFAD20"
+  });
+  $("input").css({
+    "color": "#FFFFFF"
+  });
+  $("p").css({
+    "background-color": "#874903"
+  });
+  $("p").css({
+    "color": "#FFFFFF"
+  });
+  $("small").css({
+    "color": "#FFEC64"
   });
 });
 
