@@ -1,4 +1,4 @@
-body,html{
+body, html {
   margin: 0;
   padding: 0;
   font-family: "Baskerville Old Face", serif;
@@ -118,7 +118,7 @@ body,html{
 #resigned:hover {
   background-color: #FFFFFF;
   color: #E7C39F;
-  box-shadow: 0px 5px 10px rgba(255,255,255, 0.4);
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.4);
 }
 
 li {
@@ -131,12 +131,12 @@ li {
   height: 7em;
 }
 
-.aelin_pg_hide{
-  display:none;
+.aelin_pg_hide {
+  display: none;
 }
 
-.aelin_pg_show{
-  display:block;
+.aelin_pg_show {
+  display: block;
 }
 
 .aelin_profile body {
@@ -201,11 +201,11 @@ li {
   box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
 }
 
-.aelin_prof_hide{
-  display:none;
+.aelin_prof_hide {
+  display: none;
 }
 
-.aelin_prof_show{
+.aelin_prof_show {
   display: inline-block;
   border-radius: 5%;
   border spacing: 10px;
@@ -215,10 +215,10 @@ li {
   color: #FFFFFF;
   font-size: 20px;
   text-align: center;
-  transform: translate(40%,-15%);
+  transform: translate(40%, -15%);
 }
 
-.aelin_profile small{
+.aelin_profile small {
   color: #D1D1D1;
 }
 
@@ -228,12 +228,12 @@ li {
   transform: translateY(-5%);
 }
 
-.dorian_pg_hide{
-  display:none;
+.dorian_pg_hide {
+  display: none;
 }
 
-.dorian_pg_show{
-  display:block;
+.dorian_pg_show {
+  display: block;
 }
 
 .dorian_profile body {
@@ -301,14 +301,13 @@ li {
   background-color: #FFFFFF;
   color: #000000;
   box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
- /* transform: translateY(-2px); because u transformed original already*/
 }
 
-.dorian_prof_hide{
-  display:none;
+.dorian_prof_hide {
+  display: none;
 }
 
-.dorian_prof_show{
+.dorian_prof_show {
   display: inline-block;
   border-radius: 5%;
   border spacing: 10px;
@@ -318,10 +317,10 @@ li {
   color: #FFFFFF;
   font-size: 20px;
   text-align: center;
-  transform: translate(40%,50%);
+  transform: translate(40%, 50%);
 }
 
-.dorian_profile small{
+.dorian_profile small {
   color: #000000;
 }
 
@@ -331,12 +330,12 @@ li {
   transform: translateY(5%);
 }
 
-.manon_pg_hide{
-  display:none;
+.manon_pg_hide {
+  display: none;
 }
 
-.manon_pg_show{
-  display:block;
+.manon_pg_show {
+  display: block;
 }
 
 .manon_profile body {
@@ -366,9 +365,8 @@ li {
 }
 
 .manon_profile #bliss_Man {
-background-color: #000000;
-color: #EA0000;
-/* font-weight: bold; */
+  background-color: #000000;
+  color: #EA0000;
 }
 
 .manon_profile #bliss_Man:hover {
@@ -405,14 +403,13 @@ color: #EA0000;
   background-color: #FFFFFF;
   color: #CFAD20;
   box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
- /* transform: translateY(-2px); because u transformed original already*/
 }
 
-.manon_prof_hide{
-  display:none;
+.manon_prof_hide {
+  display: none;
 }
 
-.manon_prof_show{
+.manon_prof_show {
   display: inline-block;
   border-radius: 5%;
   border spacing: 10px;
@@ -425,7 +422,7 @@ color: #EA0000;
   transform: translate(40%, -25%);
 }
 
-.manon_profile small{
+.manon_profile small {
   color: #CFAD20;
 }
 
@@ -435,12 +432,12 @@ color: #EA0000;
   transform: translateY(-5%);
 }
 
-.yrene_pg_hide{
-  display:none;
+.yrene_pg_hide {
+  display: none;
 }
 
-.yrene_pg_show{
-  display:block;
+.yrene_pg_show {
+  display: block;
 }
 
 .yrene_profile body {
@@ -465,8 +462,8 @@ color: #EA0000;
 }
 
 .yrene_profile #bliss_Yre {
-background-color: #CFAD20;
-color: #A36CA7;
+  background-color: #CFAD20;
+  color: #A36CA7;
 }
 
 .yrene_profile #bliss_Yre:hover {
@@ -502,15 +499,14 @@ color: #A36CA7;
 .yrene_prof_btns:hover {
   background-color: #FFFFFF;
   color: #FFEC64;
- box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
- /* transform: translateY(-2px); because u transformed original already*/
+  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
 }
 
-.yrene_prof_hide{
-  display:none;
+.yrene_prof_hide {
+  display: none;
 }
 
-.yrene_prof_show{
+.yrene_prof_show {
   display: inline-block;
   border-radius: 5%;
   border spacing: 10px;
@@ -520,79 +516,76 @@ color: #A36CA7;
   color: white;
   font-size: 20px;
   text-align: center;
-  transform: translate(40%,10%);
+  transform: translate(40%, 10%);
 }
 
 .yrene_profile small {
   color: #FFEC64;
 }
 
-/* Galaxy S5 portrait and landscape */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 3) {
+/* Galaxy S5*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 
-    .home_screen body {
-   font-size: 1.25em;
- }
+  .home_screen body {
+    font-size: 1.25em;
+  }
 
- .home_screen h1 {
-   transform: translateX(-50%) translateY(-100%);
- }
+  .home_screen h1 {
+    transform: translateX(-50%) translateY(-100%);
+  }
 
- .home_screen p {
-   transform: translateX(-50%) translateY(-25%);
- }
+  .home_screen p {
+    transform: translateX(-50%) translateY(-25%);
+  }
 
   .characters_page body {
-     font-size: 1.1em;
-   }
+    font-size: 1.1em;
+  }
 
   .char_btns_container {
-     flex-direction: column;
-     top:2em;
-   }
+    flex-direction: column;
+    top: 2em;
+  }
 
-   .char_btns_container a {
-      transform: translate(100%,-150%);
-    }
+  .char_btns_container a {
+    transform: translate(100%, -150%);
+  }
 
-    .char_btns_container #dorian_img {
-      transform: translateY(10%);
-    }
+  .char_btns_container #dorian_img {
+    transform: translateY(10%);
+  }
 
-    .char_btns_container #manon_img {
-      transform: translateY(35%);
-    }
+  .char_btns_container #manon_img {
+    transform: translateY(35%);
+  }
 
-    .char_btns_container #aelin_img {
-      transform: translateY(-10%);
-    }
+  .char_btns_container #aelin_img {
+    transform: translateY(-10%);
+  }
 
-    .char_btns_container #yrene_img {
-      transform: translateY(55%);
-    }
+  .char_btns_container #yrene_img {
+    transform: translateY(55%);
+  }
 
-   .header_btns {
-      font-size: 15px;
-    }
+  .header_btns {
+    font-size: 15px;
+  }
 
-    .aelin_profile .vibe_btns {
-      width: 20.5%;
-    }
+  .aelin_profile .vibe_btns {
+    width: 22.77%;
+  }
 
-    .aelin_profile img {
-      top: 1em;
-      width: 5em;
-      height: 5em;
-    }
+  .aelin_profile img {
+    top: 1em;
+    width: 5em;
+    height: 5em;
+  }
 
-    .aelin_prof_btns {
-      display:none;
-    }
+  .aelin_prof_btns {
+    display: none;
+  }
 
-    .aelin_profile #aelin_app {
+  .aelin_profile #aelin_app {
     display: block;
     border-radius: 5%;
     background-color: #298332;
@@ -601,7 +594,7 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(-3%,375%)
+    transform: translate(-3%, 375%)
   }
 
   .aelin_profile #aelin_pers {
@@ -613,10 +606,10 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(-125%,250%)
+    transform: translate(-125%, 250%)
   }
 
- .aelin_profile #aelin_orig {
+  .aelin_profile #aelin_orig {
     display: block;
     border-radius: 5%;
     background-color: #298332;
@@ -625,7 +618,7 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(-79%,-22%)
+    transform: translate(-79%, -22%)
   }
 
   .aelin_profile #aelin_role {
@@ -637,7 +630,7 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(72%,155%)
+    transform: translate(72%, 155%)
   }
 
   .aelin_profile #aelin_abil {
@@ -649,24 +642,24 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(118%,430%)
+    transform: translate(118%, 430%)
   }
 
-      .dorian_profile .vibe_btns{
-      width: 18%;
-    }
+  .dorian_profile .vibe_btns {
+    width: 18%;
+  }
 
-    .dorian_profile img {
-      top: 1em;
-      width: 5em;
-      height: 5em;
-    }
+  .dorian_profile img {
+    top: 1em;
+    width: 5em;
+    height: 5em;
+  }
 
-    .dorian_prof_btns {
-      display:none;
-    }
+  .dorian_prof_btns {
+    display: none;
+  }
 
-    .dorian_profile #dorian_app {
+  .dorian_profile #dorian_app {
     display: block;
     border-radius: 5%;
     background-color: #CFAD20;
@@ -675,7 +668,7 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(-3%,750%);
+    transform: translate(-3%, 750%);
   }
 
   .dorian_profile #dorian_pers {
@@ -687,10 +680,10 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(-125%,200%);
+    transform: translate(-125%, 200%);
   }
 
- .dorian_profile #dorian_orig {
+  .dorian_profile #dorian_orig {
     display: block;
     border-radius: 5%;
     background-color: #CFAD20;
@@ -699,7 +692,7 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(-80%,-65%);
+    transform: translate(-80%, -65%);
   }
 
   .dorian_profile #dorian_role {
@@ -711,7 +704,7 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(71%,62%);
+    transform: translate(71%, 62%);
   }
 
   .dorian_profile #dorian_abil {
@@ -723,159 +716,873 @@ color: #A36CA7;
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(117%,675%);
+    transform: translate(117%, 675%);
   }
 
-  .manon_profile .vibe_btns{
-  width: 18%;
+  .manon_profile .vibe_btns {
+    width: 18%;
+  }
+
+  .manon_profile img {
+    top: 1em;
+    width: 5em;
+    height: 5em;
+  }
+
+  .manon_prof_btns {
+    display: none;
+  }
+
+  .manon_profile #manon_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(-3%, 535%);
+  }
+
+  .manon_profile #manon_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(-125%, 200%);
+  }
+
+  .manon_profile #manon_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(-80%, -65%);
+  }
+
+  .manon_profile #manon_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(70%, 74%);
+  }
+
+  .manon_profile #manon_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(117%, 500%);
+  }
+
+  .yrene_profile .vibe_btns {
+    width: 20.53%;
+  }
+
+  .yrene_profile img {
+    top: 1em;
+    width: 5em;
+    height: 5em;
+  }
+
+  .yrene_prof_btns {
+    display: none;
+  }
+
+  .yrene_profile #yrene_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(-3%, 450%);
+  }
+
+  .yrene_profile #yrene_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(-125%, 350%);
+  }
+
+  .yrene_profile #yrene_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(-79%, -63%);
+  }
+
+  .yrene_profile #yrene_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(71%, 75%);
+  }
+
+  .yrene_profile #yrene_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(119%, 570%);
+  }
 }
 
-.manon_profile img {
-  top: 1em;
-  width: 5em;
-  height: 5em;
+/* iPhone X  */
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+
+  .home_screen body {
+    background-color: #4169E1;
+    color: #FFD700;
+    font-size: 1.25em;
+  }
+
+  .home_screen h1 {
+    transform: translateX(-63%) translateY(-150%);
+  }
+
+  .home_screen p {
+    transform: translateX(-80%) translateY(-115%);
+  }
+
+  .characters_page body {
+    background-color: #4169E1;
+    color: #FFD700;
+    font-size: 1.4em;
+  }
+
+  .char_btns_container {
+    flex-direction: column;
+    top: 2em;
+  }
+
+  .char_btns_container a {
+    transform: translate(100%, -150%);
+    color: #FFD700;
+  }
+
+  .char_btns_container a:hover {
+    color: #E6F1F9;
+  }
+
+  .char_btns_container #dorian_img {
+    transform: translateY(10%);
+  }
+
+  .char_btns_container #manon_img {
+    transform: translateY(35%);
+  }
+
+  .char_btns_container #aelin_img {
+    transform: translateY(-10%);
+  }
+
+  .char_btns_container #yrene_img {
+    transform: translateY(55%);
+  }
+
+  .header_btns {
+    font-size: 15px;
+  }
+
+  .aelin_profile .vibe_btns {
+    width: 100%;
+  }
+
+  .aelin_profile img {
+    top: 2em;
+    right: .5em;
+    width: 6.5em;
+    height: 6em;
+  }
+
+  .aelin_prof_btns {
+    display: none;
+  }
+
+  .aelin_profile #aelin_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(0%, 295%)
+  }
+
+  .aelin_profile #aelin_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-122%, 285%)
+  }
+
+  .aelin_profile #aelin_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-76%, 43%)
+  }
+
+  .aelin_profile #aelin_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(74%, 255%)
+  }
+
+  .aelin_profile #aelin_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(121%, 395%)
+  }
+
+  .dorian_profile .vibe_btns {
+    width: 100%;
+  }
+
+  .dorian_profile img {
+    top: 2em;
+    right: .75em;
+    width: 5em;
+    height: 6em;
+  }
+
+  .dorian_prof_btns {
+    display: none;
+  }
+
+  .dorian_profile #dorian_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(0%, 520%);
+  }
+
+  .dorian_profile #dorian_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-122%, 205%);
+  }
+
+  .dorian_profile #dorian_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-76%, 35%);
+  }
+
+  .dorian_profile #dorian_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(75%, 145%);
+  }
+
+  .dorian_profile #dorian_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(122%, 674%);
+  }
+
+  .manon_profile .vibe_btns {
+    width: 100%;
+  }
+
+  .manon_profile img {
+    top: 2em;
+    right: .5em;
+    width: 7em;
+    height: 7em;
+  }
+
+  .manon_prof_btns {
+    display: none;
+  }
+
+  .manon_profile #manon_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-1%, 395%);
+  }
+
+  .manon_profile #manon_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-123%, 205%);
+  }
+
+  .manon_profile #manon_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-76%, 35%);
+  }
+
+  .manon_profile #manon_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(74%, 182%);
+  }
+
+  .manon_profile #manon_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(121%, 455%);
+  }
+
+  .yrene_profile .vibe_btns {
+    width: 100%;
+  }
+
+  .yrene_profile img {
+    top: 1em;
+    width: 6.5em;
+    height: 6.5em;
+  }
+
+  .yrene_prof_btns {
+    display: none;
+  }
+
+  .yrene_profile #yrene_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-1%, 310%);
+  }
+
+  .yrene_profile #yrene_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-123%, 280%);
+  }
+
+  .yrene_profile #yrene_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(-76%, 6%);
+  }
+
+  .yrene_profile #yrene_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(75%, 140%);
+  }
+
+  .yrene_profile #yrene_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    transform: translate(121%, 490%);
+  }
 }
 
-.manon_prof_btns {
-  display:none;
-}
+/* iPad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
 
-.manon_profile #manon_app {
-display: block;
-border-radius: 5%;
-background-color: #D1D1D1;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #000000;
-font-size: 15px;
-text-align: center;
-transform: translate(-3%,535%);
-}
+  .home_screen body {
+    font-size: 2em;
+  }
 
-.manon_profile #manon_pers {
-display: block;
-border-radius: 5%;
-background-color: #D1D1D1;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #000000;
-font-size: 15px;
-text-align: center;
-transform: translate(-125%,200%);
-}
+  .home_screen h1 {
+    transform: translate(-50%, -90%);
+  }
 
-.manon_profile #manon_orig {
-display: block;
-border-radius: 5%;
-background-color: #D1D1D1;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #000000;
-font-size: 15px;
-text-align: center;
-transform: translate(-80%,-65%);
-}
+  .home_screen p {
+    transform: translateX(100%) translateY(300%);
+  }
 
-.manon_profile #manon_role {
-display: block;
-border-radius: 5%;
-background-color: #D1D1D1;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #000000;
-font-size: 15px;
-text-align: center;
-transform: translate(70%, 74%);
-}
+  .characters_page body {
+    font-size: 2.75em;
+  }
 
-.manon_profile #manon_abil {
-display: block;
-border-radius: 5%;
-background-color: #D1D1D1;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #000000;
-font-size: 15px;
-text-align: center;
-transform: translate(117%, 500%);
-}
+ .char_btns_container #aelin_img {
+    transform: translate(65%,-70%);
+  }
 
-.yrene_profile .vibe_btns{
-width: 20.53%;
-}
+  .char_btns_container #dorian_img {
+    transform: translate(140%,-76%);
+  }
 
-.yrene_profile img {
-top: 1em;
-width: 5em;
-height: 5em;
-}
+  .char_btns_container #manon_img {
+    transform: translate(-112%,89%);
+  }
 
-.yrene_prof_btns {
-display:none;
-}
 
-.yrene_profile #yrene_app {
-display: block;
-border-radius: 5%;
-background-color: #874903;;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #FFFFFF;
-font-size: 15px;
-text-align: center;
-transform: translate(-3%,450%);
-}
+  .char_btns_container #yrene_img {
+    transform: translate(-80%,85%);
+  }
 
-.yrene_profile #yrene_pers {
-display: block;
-border-radius: 5%;
-background-color: #874903;;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #FFFFFF;
-font-size: 15px;
-text-align: center;
-transform: translate(-125%,350%);
-}
+   .char_btns_container #show_aelin {
+    transform: translate(75%,-395%)
+  }
 
-.yrene_profile #yrene_orig {
-display: block;
-border-radius: 5%;
-background-color: #874903;;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #FFFFFF;
-font-size: 15px;
-text-align: center;
-transform: translate(-79%,-63%);
-}
+   .char_btns_container #show_dorian {
+    transform: translate(140%,-380%)
+  }
 
-.yrene_profile #yrene_role {
-display: block;
-border-radius: 5%;
-background-color: #874903;;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #FFFFFF;
-font-size: 15px;
-text-align: center;
-transform: translate(71%,75%);
-}
+   .char_btns_container #show_manon {
+    transform: translate(-105%,575%)
+  }
 
-.yrene_profile #yrene_abil {
-display: block;
-border-radius: 5%;
-background-color: #874903;;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-width: 300px;
-color: #FFFFFF;
-font-size: 15px;
-text-align: center;
-transform: translate(119%,570%);
-}
+   .char_btns_container #show_yrene {
+    transform: translate(-82%,600%)
+  }
 
-}
+  .header_btns {
+    font-size: 23px;
+  }
 
-@media only screen and (device-width: 768px) {
-  /* For general iPad layouts */
+  .aelin_profile .vibe_btns {
+    width: 22%;
+  }
+
+  .aelin_profile img {
+    top: 9em;
+    width: 10em;
+    height: 10em;
+  }
+
+  .aelin_prof_btns {
+    display: none;
+  }
+
+  .aelin_profile #aelin_app {
+    display: block;
+    border-radius: 7%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 450px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(45%, 25%)
+  }
+
+  .aelin_profile #aelin_pers {
+     display: block;
+    border-radius: 7%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(75%,-5%)
+  }
+
+  .aelin_profile #aelin_orig {
+    display: block;
+    border-radius: 7%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(40%, -25%)
+  }
+
+  .aelin_profile #aelin_role {
+   display: block;
+    border-radius: 7%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(80%, 10%)
+  }
+
+  .aelin_profile #aelin_abil {
+     display: block;
+    border-radius: 7%;
+    background-color: #298332;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 215px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(155%, -25%)
+  }
+.dorian_profile .vibe_btns {
+    width: 21.5%;
+  }
+
+  .dorian_profile img {
+    top: 9em;
+    width: 8em;
+    height: 9em;
+  }
+
+  .dorian_prof_btns {
+    display: none;
+  }
+
+  .dorian_profile #dorian_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(70%, 90%);
+  }
+
+  .dorian_profile #dorian_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 220px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(55%, 10%);
+  }
+
+  .dorian_profile #dorian_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(20%, -5%);
+  }
+
+  .dorian_profile #dorian_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(70%, -15%);
+  }
+
+  .dorian_profile #dorian_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #CFAD20;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 225px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(150%, 0%);
+  }
+
+  .manon_profile .vibe_btns {
+    width: 21.5%;
+  }
+
+  .manon_profile img {
+    top: 10em;
+    width: 10em;
+    height: 10em;
+  }
+
+  .manon_prof_btns {
+    display: none;
+  }
+
+  .manon_profile #manon_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #000000;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(65%, 45%);
+  }
+
+  .manon_profile #manon_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 185px;
+    color: #000000;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(83%, -20%);
+  }
+
+  .manon_profile #manon_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    color: #000000;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(15%,-20%);
+  }
+
+  .manon_profile #manon_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 275px;
+    color: #000000;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(75%, -25%);
+  }
+
+  .manon_profile #manon_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    color: #000000;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(170%, -40%);
+  }
+
+  .yrene_profile .vibe_btns {
+    width: 22.915%;
+  }
+
+  .yrene_profile img {
+    top: 9em;
+    width: 9em;
+    height: 9.5em;
+  }
+
+  .yrene_prof_btns {
+    display: none;
+  }
+
+  .yrene_profile #yrene_app {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(75%, 50%);
+  }
+
+  .yrene_profile #yrene_pers {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 180px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(85%, 10%);
+  }
+
+  .yrene_profile #yrene_orig {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 325px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(40%, -20%);
+  }
+
+  .yrene_profile #yrene_role {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(80%, -18%);
+  }
+
+  .yrene_profile #yrene_abil {
+    display: block;
+    border-radius: 5%;
+    background-color: #874903;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    transform: translate(175%, -30%);
+  }
 }
