@@ -1,11 +1,12 @@
+// source link for following code: https://codepen.io/dbpas/pen/LGudb; This source helped me place buttons in a circle.
 var type = 1, //circle type - 1 whole, 0.5 half, 0.25 quarter
   radius = '12em', //distance from center
   start = -90, //shift start from 0
   $elements = $('li:not(:first-child)'),
   numberOfElements = (type === 1) ? $elements.length : $elements.length - 1, //adj for even distro of elements when not full circle
-  slice = 360 * type / numberOfElements;
+  slice = 360 * type / numberOfElements; // sets proportions of each element
 
-$elements.each(function(i) {
+$elements.each(function(i) { // starts actual rotation
   var $self = $(this),
     rotate = slice * i + start,
     rotateReverse = rotate * -1;
@@ -15,18 +16,19 @@ $elements.each(function(i) {
   });
 });
 
-// setTimeout(function() { // start a delay
-//   var fade = document.getElementById("fade"); // get required element
-//   fade.style.opacity = 1; // set opacity for the element to 1
-//   var timerId = setInterval(function() { // start interval loop
-//     var opacity = fade.style.opacity; // get current opacity
-//     if (opacity == 0) { // check if its 0 yet
-//       clearInterval(timerId); // if so, exit from interval loop
-//     } else {
-//       fade.style.opacity = opacity - 0.001; // else remove 0.05 from opacity
-//     }
-//   }, 100); // run every 0.1 second
-// }, 5000); // wait to run after 5 seconds
+// source link for following code: https://stackoverflow.com/questions/31657664/how-to-make-text-fade-out; This source gave me the necessary tools for getting fade effect of entire page over time.
+setTimeout(function() { // start a delay
+  var fade = document.getElementById("fade"); // get required element
+  fade.style.opacity = 1; // set opacity for the element to 1
+  var timerId = setInterval(function() { // start interval loop
+    var opacity = fade.style.opacity; // get current opacity
+    if (opacity == 0) { // check if its 0 yet
+      clearInterval(timerId); // if so, exit from interval loop
+    } else {
+      fade.style.opacity = opacity - 0.001; // else remove 0.05 from opacity
+    }
+  }, 100); // run every 0.1 second
+}, 5000); // wait to run after 5 seconds
 
 $("#shock").click(function() {
   $("#home").css({
