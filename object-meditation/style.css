@@ -750,7 +750,7 @@ li {
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(117%, 675%);
+    transform: translate(117%, 575%);
   }
 
   .char_btns_container #manon_img {
@@ -844,7 +844,7 @@ li {
     color: #000000;
     font-size: 15px;
     text-align: center;
-    transform: translate(117%, 500%);
+    transform: translate(117%, 445%);
   }
 
   .char_btns_container #yrene_img {
@@ -887,7 +887,7 @@ li {
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(-3%, 450%);
+    transform: translate(-3%, 575%);
   }
 
   .yrene_profile #yrene_pers {
@@ -900,7 +900,7 @@ li {
     color: #FFFFFF;
     font-size: 15px;
     text-align: center;
-    transform: translate(-125%, 350%);
+    transform: translate(-125%, 345%);
   }
 
   .yrene_profile #yrene_orig {
@@ -1171,7 +1171,7 @@ li {
     color: #FFFFFF;
     font-size: 18px;
     text-align: center;
-    transform: translate(122%, 635%);
+    transform: translate(122%, 560%);
   }
 
   .char_btns_container #manon_img {
@@ -1308,7 +1308,7 @@ li {
     color: #FFFFFF;
     font-size: 18px;
     text-align: center;
-    transform: translate(-1%, 310%);
+    transform: translate(-1%, 380%);
   }
 
   .yrene_profile #yrene_pers {
@@ -1321,7 +1321,7 @@ li {
     color: #FFFFFF;
     font-size: 18px;
     text-align: center;
-    transform: translate(-123%, 280%);
+    transform: translate(-123%, 270%);
   }
 
   .yrene_profile #yrene_orig {
@@ -1334,7 +1334,7 @@ li {
     color: #FFFFFF;
     font-size: 18px;
     text-align: center;
-    transform: translate(-76%, 6%);
+    transform: translate(-76%, 3%);
   }
 
   .yrene_profile #yrene_role {
@@ -1347,7 +1347,7 @@ li {
     color: #FFFFFF;
     font-size: 18px;
     text-align: center;
-    transform: translate(75%, 140%);
+    transform: translate(75%, 138%);
   }
 
   .yrene_profile #yrene_abil {
@@ -1427,7 +1427,7 @@ li {
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(45%, 25%)
+    transform: translate(45%, 20%)
   }
 
   .aelin_profile #aelin_pers {
@@ -1463,7 +1463,7 @@ li {
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(80%, 10%)
+    transform: translate(80%, -3%)
   }
 
   .aelin_profile #aelin_abil {
@@ -1475,7 +1475,7 @@ li {
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(155%, -25%)
+    transform: translate(155%, -33%)
   }
 
   .char_btns_container #dorian_img {
@@ -1517,11 +1517,11 @@ li {
     border-radius: 5%;
     background-color: #CFAD20;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 300px;
+    width: 320px;
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(70%, 90%);
+    transform: translate(75%, 75%);
   }
 
   .dorian_profile #dorian_pers {
@@ -1533,7 +1533,7 @@ li {
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(55%, 10%);
+    transform: translate(55%, 0%);
   }
 
   .dorian_profile #dorian_orig {
@@ -1541,11 +1541,11 @@ li {
     border-radius: 5%;
     background-color: #CFAD20;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 400px;
+    width: 350px;
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(20%, -5%);
+    transform: translate(35%, -10%);
   }
 
   .dorian_profile #dorian_role {
@@ -1557,7 +1557,7 @@ li {
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(70%, -15%);
+    transform: translate(76%, -20%);
   }
 
   .dorian_profile #dorian_abil {
@@ -1565,11 +1565,11 @@ li {
     border-radius: 5%;
     background-color: #CFAD20;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 225px;
+    width: 200px;
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(150%, 0%);
+    transform: translate(180%, -30%);
   }
 
   .char_btns_container #manon_img {
@@ -1597,7 +1597,8 @@ li {
   }
 
   .manon_profile img {
-    top: 10em;
+    top: 9.5em;
+    left: .5em;
     width: 10em;
     height: 10em;
   }
@@ -1611,11 +1612,11 @@ li {
     border-radius: 5%;
     background-color: #D1D1D1;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 300px;
+    width: 250px;
     color: #000000;
     font-size: 23px;
     text-align: center;
-    transform: translate(65%, 45%);
+    transform: translate(95%, 20%);
   }
 
   .manon_profile #manon_pers {
@@ -1623,11 +1624,11 @@ li {
     border-radius: 5%;
     background-color: #D1D1D1;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 185px;
+    width: 165px;
     color: #000000;
     font-size: 23px;
     text-align: center;
-    transform: translate(83%, -20%);
+    transform: translate(105%, -35%);
   }
 
   .manon_profile #manon_orig {
@@ -1635,11 +1636,11 @@ li {
     border-radius: 5%;
     background-color: #D1D1D1;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 400px;
+    width: 350px;
     color: #000000;
     font-size: 23px;
     text-align: center;
-    transform: translate(15%, -20%);
+    transform: translate(35%, -20%);
   }
 
   .manon_profile #manon_role {
@@ -1647,11 +1648,11 @@ li {
     border-radius: 5%;
     background-color: #D1D1D1;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 275px;
+    width: 300px;
     color: #000000;
     font-size: 23px;
     text-align: center;
-    transform: translate(75%, -25%);
+    transform: translate(75%, -15%);
   }
 
   .manon_profile #manon_abil {
@@ -1659,11 +1660,11 @@ li {
     border-radius: 5%;
     background-color: #D1D1D1;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 200px;
+    width: 215px;
     color: #000000;
     font-size: 23px;
     text-align: center;
-    transform: translate(170%, -40%);
+    transform: translate(160%, -35%);
   }
 
   .char_btns_container #yrene_img {
@@ -1687,7 +1688,8 @@ li {
   }
 
   .yrene_profile img {
-    top: 9em;
+    top: 8em;
+    left: .25em;
     width: 9em;
     height: 9.5em;
   }
@@ -1705,7 +1707,7 @@ li {
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(75%, 50%);
+    transform: translate(65%, 50%);
   }
 
   .yrene_profile #yrene_pers {
@@ -1713,11 +1715,11 @@ li {
     border-radius: 5%;
     background-color: #874903;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 180px;
+    width: 175px;
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(85%, 10%);
+    transform: translate(90%, 2%);
   }
 
   .yrene_profile #yrene_orig {
@@ -1741,7 +1743,7 @@ li {
     color: #FFFFFF;
     font-size: 23px;
     text-align: center;
-    transform: translate(80%, -18%);
+    transform: translate(80%, -20%);
   }
 
   .yrene_profile #yrene_abil {
@@ -1755,33 +1757,5 @@ li {
     text-align: center;
     transform: translate(175%, -30%);
   }
-
-  /* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
 
 }
