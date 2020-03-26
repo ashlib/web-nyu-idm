@@ -42,5 +42,23 @@ console.log(colorsArray);
 // 6. Declare an empty string variable called 'text'. Each time you console.log a color from the above challenge number 2, add your color to this variable.
 // push your edits to github!!
 
+let text = " ";
+
+for(i=0; i< colorsArray.length; i++) {
+  let colorsAsString
+  colorAsString = colorsArray + text;
+}
+
+console.log(colorAsString)
+
+// I also tried 2 other methods of code below; they each work the similarly but I wasn't sure which was what you were asking for based on the question
+
+ // Method 2:
+ // console.log(colorsArray + text);
+
+// Method 3:
+// let colorsAsString = colorsArray.join(text);
+// console.log(colorsAsString);
+
 //7. Create a div in the index.html with a unique id called whatever you want. Display the contents of your text variable to this div. Now you should have a list of 5 colors visible on your website.
 // push your edits to github!!
