@@ -12,16 +12,35 @@
 // //
 // // console.log(getRandom(3))
 // //
+//
 // let n = getRandom(namesArray.length)
 // console.log(n)
 //
 // let randomName = namesArray[n];
 // console.log(randomName)
 //
-// // shows random name on page
-// $("#name").html(namesArray[n])
-//
 // let arrayAsString = namesArray.join(", ")
 // console.log(arrayAsString)
 //
-// $("#name").html(arrayAsString)
+// let sortedNames = namesArray.sort();
+// console.log(sortedNames);
+//
+// let text = "";
+//
+// // loops
+//
+// // i = index
+// // i=0 means at the very beginning loop will begin;
+//  // i<namesArray.length is when loop ends
+//  // i++ is shorthand for increasing by 1
+//
+// for(i=0; i< namesArray.length; i++) {
+//   text += namesArray[i] + "" + i +  "<br>";
+// }
+//
+// $("#listNames").html(text);
+//
+// // shows random name on page
+// $("#name").html(namesArray[n])
+//
+// $("#names").html(arrayAsString)
